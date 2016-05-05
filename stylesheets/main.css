@@ -1,9 +1,23 @@
-body{
-    background-color:white
+a{
+    text-decoration: none;
 }
 #wrapper{
    max-width:940px;
     margin:0 auto;
     padding:0 5%;
-    background:orange
+}
+
+#logo{
+    text-align: center;
+    margin: 0;
+}
+a {
+   color: #6ab47b;
+}
+header {
+    background:#55a532;
+    border-color:#0086b3;
+}
+h1 , h2 {
+    color:#fff;
 }

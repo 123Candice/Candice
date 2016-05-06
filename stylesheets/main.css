@@ -71,6 +71,11 @@ nav li{
     display: inline-block;
 }
 
+nav a{
+    font-weight: 800;
+    padding: 15px 10px;
+}
+
 
 
 /* **********

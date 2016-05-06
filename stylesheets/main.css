@@ -53,22 +53,6 @@ nav{
     padding: 10px 0;
     margin: 20px 0 0;
 }
-
-
-/* **********
- FOOTER
- *************/
-
-footer{
-    font-size: 0.75em;
-    text-align: center;
-    padding-top: 50px;
-    color: #ccc;
-}
-
-
-
-
 /* **********
  PORTFOLIO
  *************/
@@ -88,6 +72,23 @@ footer{
 
 
 }
+
+
+/* **********
+ FOOTER
+ *************/
+
+footer{
+    font-size: 0.75em;
+    text-align: center;
+    padding-top: 50px;
+    color: #ccc;
+}
+
+
+
+
+
 
 
 /* **********

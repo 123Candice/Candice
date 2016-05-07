@@ -14,6 +14,22 @@ TWO COLUMN LAYOUT
     }
 }
 
+/* **********
+ 3 * 5 = 15
+ 100% - 15% = 85%
+ 85 / 3 = 28.333333
+ *************/
+
+
+/* **********
+ PAGE:PORTFOLIO
+ *************/
+
+#gallery li{
+    width: 28.33333%;
+}
+
+
 
 @media screen and (min-width: 660px){
 

@@ -29,6 +29,10 @@ TWO COLUMN LAYOUT
     width: 28.33333%;
 }
 
+#gallery li:nth-child(4n){
+    clear: left;
+}
+
 
 
 @media screen and (min-width: 660px){

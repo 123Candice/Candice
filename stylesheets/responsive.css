@@ -61,4 +61,11 @@ TWO COLUMN LAYOUT
         width: 45%;
     }
 
+    #logo{
+        float: left;
+        margin-left: 5%;
+        text-align: left;
+        width: 45%;
+    }
+
 }

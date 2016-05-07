@@ -68,4 +68,9 @@ TWO COLUMN LAYOUT
         width: 45%;
     }
 
+    h1{
+        font-size: 0.825em;
+        margin-bottom: 20px;
+    }
+
 }

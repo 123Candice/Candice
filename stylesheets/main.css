@@ -135,6 +135,10 @@ footer {
     color: #bdc3c7
 }
 
+p {
+    border: solid 1px red;
+}
+
 /* **********
  CONTACT
  *************/

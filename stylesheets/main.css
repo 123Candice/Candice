@@ -156,6 +156,7 @@ footer {
     background-size: 20px 20px;
     padding: 0 0 0 30px;
     margin: 0 0 10px;
+    color:#000000;
 }
 
 .contact-info li.phone a {
@@ -201,7 +202,7 @@ h1, h2 {
 
 /* Links */
 a {
-    color: #6ab47b;
+    color: #1e6bb8;
 }
 
 /* nav link */
@@ -225,5 +226,8 @@ nav a.selected, nav a:hover {
 .nav{
     flex:1;
     justify-content: space-around;
+}
+#welcome{
+    display: flex;
 }
 

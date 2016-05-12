@@ -29,7 +29,7 @@ h3 {
  *************/
 
 header {
-    float: left;
+    float: right;
     margin: 0 0 30px 0;
     padding: 5px 0 0 0;
     width: 100%;
@@ -43,7 +43,7 @@ header {
 }
 
 h1 {
-    font-family: 'Changa One', sans-serif;
+    font-family: 'open sans', sans-serif;
     margin: 15px 0;
     font-size: 1.75em;
     font-weight: normal;
@@ -73,7 +73,7 @@ h2 {
  NAV
  *************/
 nav {
-    text-align: center;
+    text-align: right;
     padding: 10px 0;
     margin: 20px 0 0;
 }
@@ -102,7 +102,7 @@ footer {
     text-align: center;
     clear: both;
     padding-top: 50px;
-    color: #ccc;
+    color: #000000;
 }
 
 .social-icon {
@@ -117,7 +117,7 @@ footer {
 #gallery {
     margin: 0;
     padding: 0;
-    list-style: none;
+    list-style: auto;
 }
 
 #gallery li {
@@ -134,6 +134,14 @@ footer {
     font-size: 0.75em;
     color: #bdc3c7
 }
+
+#welcome{
+    margin: auto;
+    color:#000000;
+    font-size: 1.23em;
+    padding: 5%;
+}
+
 
 /* **********
  CONTACT
@@ -173,25 +181,27 @@ footer {
 
 /* site body */
 body {
-    background-color: #fff;
-    color: #999;
+    background-color: #e9ebec;
+    color: #000000;
 }
 
 /* green header */
 header {
-    background: #6ab47b;
-    border-color: #599a68;
+    background: #e9ebec;
+    border-color: #e9ebec;
     margin: 0 auto;
+    color:#000000;
 }
 
 /* nav background on mobile */
 nav {
-    background: #599a68;
+    background: #e9ebec;
+    color:#000000;
 }
 
 /* logo text */
 h1, h2 {
-    color: #fff;
+    color: #000000;
 }
 
 /* Links */
@@ -201,11 +211,24 @@ a {
 
 /* nav link */
 nav a, nav a:visited {
-    color: #fff;
+    color: #000000;
 }
 
 /* selected nav link */
 nav a.selected, nav a:hover {
     color: #32673f;
+}
+
+/* flex box layout*/
+. header, .nav{
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    justify-content: space-between;
+}
+.nav{
+    flex:1;
+    justify-content: space-around;
 }
 

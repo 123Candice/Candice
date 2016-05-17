@@ -3,62 +3,102 @@
 <meta charset="utf-8">
 <title>Candice Liu </title>
 <link rel="stylesheet" href="stylesheets/normalize.css">
-<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,700italic,800' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,700italic,800' rel='stylesheet'
+      type='text/css'>
 <link rel="stylesheet" href="stylesheets/main.css">
 <meta name="viewpoint" content="width=device-width">
-   <body>
-   <form action="index.html"> </form>
-   <header>
-       <a href="index.html">
-           <h1 align="center">CANDICE LIU</h1>
-       </a>
-       <nav>
-           <ul>
-               <li><a href="index.html"> Home</a>
-               </li>ad>
+<body>
+<form action="index.html" method="post">
+    <h1>Sign Up</h1>
+    <fieldsite>
+        <legend><span class="number">1</span> Your basic info</legend>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="user_name">
+        <label for="mail">Mail</label>
+        <input type="email" id="mail" name="user_email">
 
-                 <li><a href="about.html"> About </a>
-                 </li>
-                 <li><a href="friends.html">Friends  </a>
+        <label for="password">Password</label>
+        <input type="password" id="password">
 
-                 <li><a href="blog.html"> Blog </a>
-                 </li>
-                 <li><a href="contact.html"> Contact </a>
-                 </li>
-             </ul>
+        <label>Age:</label>
+        <input type="radio" id="under_13" value="under_13" name="user_age">
+        <label for="under_13" class="light">Under 13</label><br>
+        <input type="radio" id="over_13" value="over_13" name="user_age">
+        <label for="over_13" class="light">13 or Older</label><br>
 
-         </nav>
-     </header>
-     <div id="wrapper">
-   <section>
-       <ul id="gallery">
-           <li>
-               <a href="images/number4.JPG">
-                   <img src="images/number4.JPG" alt="">
-
-               </a>
-           </li>
-           <li>
-               <a href="images/home.jpg">
-                   <img src="images/home.jpg" alt="">
-               </a>
-           </li>
-       </ul>
-       <div id="welcome">
-          <p> No rain, no rainbow.. </p>
-       </div>
-
-   </section>
-   <footer>
-       <a href="http://facebook.com/Candice liu">
-       <img src="images/facebook1.png" alt="Facebook Logo" class="social-icon">
-       </a>
-       <p>&copy; 2016 Candice Liu.</p>
-
-       </footer>
-
-     </div>
-   </body>
+        <label for="bio">Biography</label>
+    </fieldsite>
+    <fieldsite>
+        <legend><span class="number">2</span> Your Profile</legend>
+        <textarea id="bio" name="'user_bio"></textarea>
+        <label for="job">Job role:</label>
+        <select id="job" name="user_job">
+            <option value="PHP_developer">PHP-Developer</option>
+            <option value="fronted_developer">Front-End Developer</option>
+            <option value="phthon_developer">Python Developer</option>
+        </select>
+        <label>Interests:</label>
+        <Input type="checkbox" id="development" value="interest_development"
+               name="user_interest">
+        <label class="light" for="development">Development</label>
+        <Input type="checkbox" id="design" value="interest_design"
+               name="user_interest">
+        <label class="light" for="design">Design</label>
+        <Input type="checkbox" id="checkout" value="interest_checkout"
+               name="user_interest">
+        <label class="light" for="checkout">Checkout</label>
+    </fieldsite>
+    <button type="submit">Sign up</button>
+</form>
+<header>
+    <a href="index.html">
+        <h1 align="center">CANDICE LIU</h1>
+    </a>
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html"> Home</a>
+            </li>
+            <li>
+                <a href="about.html"> About </a>
+            </li>
+            <li>
+                <a href="friends.html">Friends </a>
+            <li>
+                <a href="blog.html"> Blog </a>
+            </li>
+            <li>
+                <a href="contact.html"> Contact </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<div id="wrapper">
+    <section>
+        <ul id="gallery">
+            <li>
+                <a href="images/number4.JPG">
+                    <img src="images/number4.JPG" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="images/home.jpg">
+                    <img src="images/home.jpg" alt="">
+                </a>
+            </li>
+        </ul>
+        <div id="welcome">
+            <p> No rain, no rainbow.. </p>
+        </div>
+    </section>
+    <footer>
+        <a href="http://facebook.com/Candice liu">
+            <img src="images/facebook1.png" alt="Facebook Logo" class="social-icon">
+        </a>
+        <p>&copy; 2016 Candice Liu.</p>
+    </footer>
+</div>
+</body>
 </html>
 
 

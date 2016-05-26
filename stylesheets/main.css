@@ -92,13 +92,17 @@ nav a {
  FOOTER
  *************/
 
+
 footer {
-    font-size: 0.75em;
-    text-align: center;
-    clear: both;
-    padding-top: 50px;
-    color: #000000;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:60px;   /* Height of the footer */
+    background:#e9ebec;
+    text-align:center
+
 }
+
 
 .social-icon {
     width: 20px;
@@ -252,3 +256,4 @@ nav a.selected, nav a:hover {
     font-size: 0.75em;
     color: #bdc3c7
 }
+
